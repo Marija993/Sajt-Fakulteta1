@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+<style>
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+	}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: purple;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+body {
+    background-color: lightblue;
+	
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+	font-family: verdana; 
+	font-style: italic;
+
+}
+
+h2 {
+    
+	font-family: verdana; 
+	font-size: 30px;
+}
+
+
+p {
+    font-family: verdana;
+    font-size: 50px;
+   
+}
+
+img {
+  
+    display: block;
+    margin: auto;
+	
+
+	
+}
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  
+  z-index: -1;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+</style>
+
+
+</head>
+
+<body>
+
+
+<ul>
+  <li class="dropdown">
+      <a href="javascript:void(0)" class ="dropbtn">O fakultetu</a>
+	  <div class="dropdown-content">
+	  <a href="Istorijat.html">Istorijat</a>
+	  
+	  </div>
+	  </li>
+	
+  <li class="dropdown">
+      <a href="javascript:void(0)" class ="dropbtn">Sluzbe</a>
+	  <div class="dropdown-content">
+	  <a href="Dekanat.html">Dekanat</a>
+	  <a href="Sekretarijat.html">Sekretarijat</a>
+	  <a href="racunovodstvo.html">Racunovodstvo</a>
+	  <a href="studentskaS.html">Studentska sluzba</a>
+	  <a href="Biblioteka.html">Biblioteka</a>
+	  <a href="Skriptarnica.html">Skriptarnica</a>
+	  </div>
+	  </li>
+	  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Godine studija</a>
+    <div class="dropdown-content">
+      <a href="PrvaGodina.html">Prva godina</a>
+      <a href="DrugaGodina.html">Druga godina</a>
+      <a href="TrecaGodina.html">Treca godina</a>
+	  <a href="CetvrtaGodina.html">Cetvrta godina</a>
+    </div>
+  </li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Profesori</a>
+    <div class="dropdown-content">
+      <a href="DarkoD.html">Darko Drakulic</a>
+	  <a href="VladimirV.html">Vladimir Vladicic</a>
+	  <a href="MilenkoP.html">Milenko Pikula</a>
+	  <a href="NebojsaE.html">Nebojsa Elez</a>
+	  <a href="DuskoJ.html">Dusko Jojic</a>
+
+
+    </div>
+  </li>
+  
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Asistenti</a>
+    <div class="dropdown-content">
+      <a href="AljosaS.html">Aljosa Sljuka</a>
+	  <a href="OgnjenP.html">Ognjen Papaz</a>
+	  <a href="JelenaR.html">Jelena Radovic</a>
+	  <a href="MarkoC.html">Marko Citic</a>
+    </div>
+  </li>
+  
+   <li><a href="ispitniRokovi.html">Ispitni rokovi</a></li>
+   
+   <li><a href="Konsultacije.html">Konsultacije</a></li>
+   <li><a href="http://raspored.ffuis.edu.ba/#/schedules/view?studyProgramId=1">Predavanja</a></li>
+
+  
+
+</ul> 
+
+<h1>Katedra za matematiku i racunarstvo</h1>
+
+
+
+	<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 6</div>
+  <img src="http://www.palelive.com/images/stories/foto-vijesti/fakulteti_pale01.jpg" style="width:70%" >
+  <div class="text"><p>Zgrada Filozofskog fakulteta</p></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 6</div>
+  <img src="http://www.palelive.com/images/stories/foto-vijesti/dodjela-diploma-filozofski-fakultet-istocno-sarajevo-06-06-2014.jpg" style="width:70%">
+  <div class="text"><p> Dodjela diploma </p></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 6</div>
+  <img src="http://www.palelive.com/images/stories/foto-vijesti/studenti_filozofski_fakultet_protest.jpg" style="width:70%">
+  <div class="text"><p>Zgrada Filozofskog fakulteta</p></div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">4 / 6</div>
+  <img src="http://www.palelive.com/images/stories/foto-vijesti/filozofski_fakultet_unutra2.jpg" style="width:70%">
+  <div class="text"><p>Unutrasnjost fakulteta</p></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 6</div>
+  <img src="http://www.ffuis.edu.ba/media/images/2015/12/01/predavanja_jd.jpg" style="width:70%">
+  <div class="text"><h2>Predavanja - Prof. dr Jovan Delic i <br> akademik Rajko Petrov</h2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">6 / 6</div>
+  <img src="http://www.ffuis.edu.ba/media/images/2016/05/25/naucni-skup-2016.jpg" style="width:70%">
+  <div class="text"><h2>Naucni skup Nauka i stvarnost - <br> 21. maj 2016. godine</h2></div>
+</div>
+
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+	 <span class="dot"></span> 
+	<span class="dot"></span> 
+</div> 
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+	
+
+</body>
+</html>
